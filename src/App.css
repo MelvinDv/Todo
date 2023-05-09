@@ -193,3 +193,44 @@ article > p {
   color: rgb(124, 124, 124);
   font-weight: 500;
 }
+
+
+@media screen and (max-width: 500px) { 
+
+  .header {
+    width: 400px;
+  }
+
+  .main {
+    width: 400px;
+  }
+
+  .todos {
+    width: 400px;
+  }
+
+  .options {
+    width: 400px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .header {
+    width: 350px;
+  }
+
+  .main {
+    width: 320px;
+  }
+
+  .todos {
+    width: 320px;
+  }
+
+  .options {
+    width: 320px;
+  }
+  
+}
